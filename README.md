@@ -1,8 +1,11 @@
 # Estimate-optimal-scone-stocking-and-profits
 
-This is a course project from Supply Chain Analytics course at UCSD, and the data is from the course as well.
+This is a course project from the Supply Chain Analytics course at UCSD, and the data set is obtained from the course as well. The goal of this project is to use data-driven simulation to estimate the optimal stocking level that will bring optimal profit for a scone bakery.
 
-In this project, I applied a data-driven analytics to estimate the optimal stocking level that will bring optimal profit for a scone bakery.
+#### Language
+R version 4.0.3 (2020-10-10)
+
+#### Context
 
 I first explored the daily scone demand data and examined its distribution. Because there was an outlier in the data, I modified it before starting the analysis.
 
@@ -12,3 +15,6 @@ Moreover, I averaged the profit expected to earn and estimated the standard devi
 
 I also estimated the average safety stock for the scone bakery and the perfect forecasting system.
 
+#### Conclusion
+
+In this project, I used a data-driven method to estimate optimal stocking level for a scone bakery. The advantage of this method is that it doesn't rely on any statistical assumption such as Normal distribution. In most of the real-world cases, we don't know whether a data follows any distribution, and it would be naive to assume the data has a specific distribution because most time this will cause biases for the analysis.
